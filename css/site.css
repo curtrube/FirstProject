@@ -1,21 +1,23 @@
-body {
-  color: white
+body,
+html {
+  color: white;
+  height: 100%;
 }
 
 #hero {
-  height: 100vh;
-  background: #141E30;
+  min-height: 100vh;
+  background: #141e30;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: -webkit-linear-gradient(to right, #243b55, #141e30);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, #243b55, #141e30);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .taskContainer {
   background-color: white;
-  border: solid .5em #ffc107;
-  border-radius: .5em;
+  border: solid 0.5em #ffc107;
+  border-radius: 0.5em;
   box-sizing: border-box;
   flex: 0 0 30%;
   height: 240px;
@@ -23,18 +25,15 @@ body {
   overflow: auto;
 }
 
-
 #taskItems {
   overflow: hidden;
   position: relative;
-
 }
 
 #taskItems .scrollbox {
   height: 100%;
   overflow: auto;
 }
-
 
 .list {
   list-style: none;
@@ -45,6 +44,6 @@ body {
 .item {
   background-color: lightgray;
   color: #212121;
-  margin: .25em;
-  padding: .5em;
+  margin: 0.25em;
+  padding: 0.5em;
 }
